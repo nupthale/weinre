@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+	<h1>ABC</h1>
+
+	<script type="text/javascript" src="lib/zepto.js"></script>
+	<script type="text/javascript">	
+		$(function() {
+			$.ajax({
+				url:'data.json',
+				success:function(res) {
+					console.log(res);
+				}
+			});
+			
+			window.localStorage.a = 'abc';
+			console.log(window.localStorage);
+			
+		});
+	</script>
+	<!--<script src="http://10.68.124.159:8082/target/target-script-min.js#anonymous"></script>-->
+	<!--<script src="http://192.168.0.3:8082/target/target-script.js"></script> <script src="http://jsconsole.com/remote.js?94D874D1-00FB-4DE5-9109-4DD79095C451"></script> -->
+</body> 
+</html>
