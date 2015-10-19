@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 					livereload:true
 				},
 				files:[
-					'static/*.html'
+					'static/eventExpired/*.html'
 				]
 			},
 			markdown:{

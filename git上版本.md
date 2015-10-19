@@ -1,4 +1,4 @@
-﻿# Weinre入门手册
+# Weinre入门手册
 
 [TOC]
 
